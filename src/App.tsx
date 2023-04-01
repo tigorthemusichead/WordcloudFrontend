@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect} from 'react';
+import './styles/App.sass';
+import {Route, Routes} from "react-router-dom";
+import {Layout} from "./layout/layout";
+import {Home} from "./pages/home/home";
+import CONSTANTS from "./app-constants";
+import {Upload} from "./pages/upload/upload";
+import {Tutorial} from "./pages/tutorial/tutorial";
+import {About} from "./pages/about/about";
+import {Contact} from "./pages/contact/contact";
 
 function App() {
+  //const { appStore } = useStores();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+          <Layout>
+              <Routes>
+                  <Route path={CONSTANTS.ROUTES.HOME} element={<Home />} />
+                  {/*<Route path={CONSTANTS.ROUTES.UPLOAD} element={<Upload />} />*/}
+                  <Route path={CONSTANTS.ROUTES.TUTORIAL} element={<Tutorial />} />
+                  <Route path={CONSTANTS.ROUTES.ABOUT} element={<About />} />
+                  {/*<Route path={CONSTANTS.ROUTES.CONTACT} element={<Contact />} />*/}
+              </Routes>
+          </Layout>
+          <div className={"background"}>
+              <div/>
+              <img src="/images/background.jpg" alt="" />
+          </div>
+    </>
+  )
 }
 
 export default App;

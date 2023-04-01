@@ -1,0 +1,32 @@
+.header
+  padding-top: 36px
+  width: 100%
+  background: #FAFAFA
+  &__container
+    max-width: 1176px
+    margin: 0 auto
+    padding: 0 40px
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__nav
+    display: flex
+    align-items: center
+    gap: 45px
+    &Item
+      &__link
+        font-weight: 400
+        font-size: 16px
+        line-height: 26px
+        color: #191623
+        text-decoration: none
+        &:visited
+          color: #191623
+        &:hover
+          text-decoration: underline
+          text-underline-offset: 2px
+  @media(max-width: 1024px)
+    .header__nav
+      display: none
+    .header__languageContainer
+      display: none
