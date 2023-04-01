@@ -1,0 +1,42 @@
+{
+  "Language: ": "Language: ",
+  "Upload": "Upload",
+  "Tutorial": "Tutorial",
+  "About": "About",
+  "Contact": "Contact",
+  "Community": "Community",
+
+  "Drag and drop .json file here": "Drag and drop .json file here",
+  "Words count:": "Words count:",
+  "Width": "Width",
+  "Height": "Height",
+  "Background color: ": "Background color: ",
+  "Refresh": "Refresh",
+  "Download": "Download",
+
+  "Name": "Name",
+  "Contact method": "Contact method",
+  "Telegram": "Telegram",
+  "Email": "Email",
+  "Telegram username": "Telegram username",
+  "Email-address": "Email",
+  "Message": "Message",
+  "Submit": "Submit",
+  "The message was send successfully": "The message was send successfully",
+
+  "home-page-title": "Welcome to the Telegram Chat Word Cloud Generator!",
+  "home-page-p1": "Our service is an open-source project that allows you to generate word clouds from your Telegram chat histories. Whether you're looking to analyze your conversations or just create a unique visual representation of your chats, our tool makes it easy and fun.",
+  "home-page-p2": "Using our service is simple: just upload your Telegram chat history and select the settings you want. You can choose the color and size of your word cloud to create a custom look that's all your own.",
+  "home-page-p3": "Best of all, our service is free to use and we respect your privacy. We don't store any of your data on our servers.",
+  "home-page-p4": "So why wait? Give our Telegram Chat Word Cloud Generator a try and see what interesting insights you can gain from your chats.",
+
+  "upload-page-title": "Upload and Customize",
+  "upload-page-p1": "To get started, upload your Telegram chat history file in <strong>.json</strong> format. Don't worry, we won't store any of your data on our servers. Your privacy is our top priority.",
+  "upload-page-p2": "Once your file is uploaded, you can customize the appearance of your word cloud. Choose your color, word count and size options to create a personalized look that fits your style.",
+  "upload-page-p3": "Click <strong>\"Refresh\"</strong> to apply style changes done and sit back as our tool creates your unique Telegram Chat Word Cloud. You'll be able to download it and share it with your friends or use it for your own purposes.",
+
+  "contact-page-title": "Contact us",
+  "contact-page-p1": "If you have any questions, feedback, or issues, please don't hesitate to reach out to us. We're always happy to hear from our users and help in any way we can.",
+  "contact-page-p2": "To get in touch with us, you can use the contact form below. Simply fill in your name, telegram username or email address, and message, and click <strong>\"Submit\"</strong>. We'll do our best to get back to you as soon as possible."
+
+}
